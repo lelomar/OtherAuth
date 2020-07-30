@@ -15,10 +15,10 @@
 	
 	<params addpath="">		
 		<param name="driver" 	type="text" 	label="Driver" 		value="mysql" />
-		<param name="host" 		type="text" 	label="Host" 		value="localhost" />
-		<param name="username" 	type="text" 	label="UserName" 	value="oravta_servizi" />
-		<param name="password" 	type="password" label="Password" 	value="EpuggA2020" />
-		<param name="database" 	type="text" 	label="DataBase" 	value="oravta_servizi" />
+		<param name="host" 		type="text" 	label="Host" 		value="" />
+		<param name="username" 	type="text" 	label="UserName" 	value="" />
+		<param name="password" 	type="password" label="Password" 	value="" />
+		<param name="database" 	type="text" 	label="DataBase" 	value="" />
 
 
 	</params>
@@ -26,11 +26,11 @@
 		<fields name="params" addfieldpath="">
 			<fieldset name="basic">
 
-				<field name="driver" 	type="text" 	label="Driver" 		description="" value="mysql"/>
-				<field name="host" 		type="text" 	label="Host" 		value="localhost" />
-				<field name="username" 	type="text" 	label="UserName" 	value="oravta_servizi" />
-				<field name="password" 	type="password" label="Password" 	value="EpuggA2020" />
-				<field name="database" 	type="text" 	label="DataBase" 	value="oravta_servizi" />
+				<field name="driver" 	type="text" 	label="Driver" 		description="" value=""/>
+				<field name="host" 		type="text" 	label="Host" 		value="" />
+				<field name="username" 	type="text" 	label="UserName" 	value="" />
+				<field name="password" 	type="password" label="Password" 	value="" />
+				<field name="database" 	type="text" 	label="DataBase" 	value="" />
 
 				<field name="user_table" 	type="text" 	label="UserTable" 	value="" />
 				<field name="username_field" 	type="text" 	label="UserName Field Name" 	value="" />
